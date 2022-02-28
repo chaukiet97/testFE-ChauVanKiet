@@ -1,0 +1,35 @@
+.container-main{
+  height: 100vh;
+  display: flex;
+  .menu-left{
+    height: 100vh;
+    width: calc(100vh - 78px);
+    background: #191718;
+
+    .list-menu{
+      ul{
+        padding: 0 !important;
+        li{
+          list-style: none;
+          cursor: pointer;
+          color: #AAAAAA;
+          padding: 8px 16px;
+          border-bottom:  1px solid #5C5C5C;
+          &:hover{
+            background-color: #5C5C5C;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+  .main-content{
+    height: 100vh;
+    width: 100%;
+    padding: 16px 16px;
+    .desc{
+      background: #EFEFEF;
+    }
+  }
+}
+
